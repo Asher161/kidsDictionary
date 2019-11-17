@@ -22,33 +22,52 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/add_word"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:hint="Add Word" />
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/word_meaning"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:hint="Mening" />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:hint="Add Word" />
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <EditText
-                android:id="@+id/word_description"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:hint="Add Description" />
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/word_grade"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/word_meaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:hint="Meaning" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="255">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/word_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:hint="Add Description"
+                    android:maxLength="255" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.weiwangcn.betterspinner.library.BetterSpinner
+                android:id="@+id/grade_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:hint="Select Grade" />
+
+
         </LinearLayout>
 
         <LinearLayout
@@ -69,9 +88,9 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Browse"
                     android:layout_marginLeft="130dp"
-                    android:layout_marginTop="60dp"/>
+                    android:layout_marginTop="60dp"
+                    android:text="Browse" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -81,24 +100,24 @@
 
                 <Button
                     android:id="@+id/record_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentLeft="true"
-                    android:text="record" />
+                    android:background="@drawable/ic_record_voice_over_black_24dp" />
 
                 <Button
                     android:id="@+id/stop_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_centerInParent="true"
-                    android:text="Stop" />
+                    android:background="@drawable/ic_stop" />
 
                 <Button
                     android:id="@+id/play_btn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
                     android:layout_alignParentRight="true"
-                    android:text="Play" />
+                    android:background="@drawable/ic_play_arrow" />
 
             </RelativeLayout>
 

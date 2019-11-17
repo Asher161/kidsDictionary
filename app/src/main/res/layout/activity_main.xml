@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e0e0e0"
+
     tools:context=".MainActivity"
     android:padding="16dp">
 
@@ -28,13 +28,15 @@
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_marginRight="40dp"
-                android:src="@drawable/search" />
+                android:src="@drawable/search"
+                android:background="#e0e0e0"/>
 
             <ImageView
                 android:id="@+id/add_word_btn"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
-                android:src="@drawable/add" />
+                android:src="@drawable/add"
+                android:background="#e0e0e0"/>
         </LinearLayout>
 
         <LinearLayout
@@ -48,13 +50,15 @@
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_marginRight="40dp"
-                android:src="@drawable/favourites" />
+                android:src="@drawable/favourites"
+                android:background="#e0e0e0"/>
 
             <ImageView
                 android:id="@+id/random_search_btn"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
-                android:src="@drawable/random" />
+                android:src="@drawable/random"
+                android:background="#e0e0e0"/>
         </LinearLayout>
     </LinearLayout>
 
