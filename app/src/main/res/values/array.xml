@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Array_grade_option">
+        <item>Select Grade</item>
+        <item>Grade One</item>
+        <item>Grade Two</item>
+        <item>Grade Three</item>
+        <item>Grade Four</item>
+        <item>Grade Five</item>
+        <item>Grade Six</item>
+        <item>Grade Seven</item>
+
+    </string-array>
+</resources>
