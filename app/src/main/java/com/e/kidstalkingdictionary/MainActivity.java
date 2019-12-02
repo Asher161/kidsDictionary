@@ -15,10 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-   /* //Creating DatabaseHelper Class Object
-    DatabaseHelper databaseHelper;
-    EditText editAddWord, editMeaning, editDescription, editGrade;
-    Button buttonSaved; */
+
 
 
     @Override
@@ -26,15 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      /*  //Calling object on run
-        databaseHelper = new DatabaseHelper(this);
-
-        editAddWord=(EditText)findViewById(R.id.add_word);
-        editMeaning=(EditText)findViewById(R.id.word_meaning);
-        editDescription=(EditText)findViewById(R.id.word_description);
-        editGrade=(EditText)findViewById(R.id.word_grade);
-        buttonSaved=(Button)findViewById(R.id.save_btn);
-        DataSaved(); */
 
 
         //Find the ImageView id from XML Activity
@@ -83,21 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-   /* public void DataSaved(){
-        buttonSaved.setOnClickListener(
-                new View.OnClickListener(){
 
-                    @Override
-                    public void onClick(View view) {
-                        boolean isInserted =databaseHelper.InsertData(editAddWord.getText().toString(), editMeaning.getText().toString(), editDescription.getText().toString(), editGrade.getText().toString());
-                        if(isInserted = true )
-                            Toast.makeText(MainActivity.this, "Data Inserted", Toast.LENGTH_LONG).show();
-                        else
-                            Toast.makeText(MainActivity.this, "Data Not Inserted", Toast.LENGTH_LONG).show();
-                    }
-                }
-        );
-    }  */
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

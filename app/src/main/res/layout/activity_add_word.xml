@@ -61,11 +61,11 @@
                     android:maxLength="255" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.weiwangcn.betterspinner.library.BetterSpinner
+            <Spinner
                 android:id="@+id/grade_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Select Grade" />
+                android:spinnerMode="dropdown" />
 
 
         </LinearLayout>

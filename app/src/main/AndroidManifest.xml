@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Favorite"
-            android:label="Favorites"></activity>
-        <activity android:name=".RandomSearch"
-            android:label="Random Search"/>
-        <activity android:name=".AddWord"
-            android:label="Add Words"/>
-        <activity android:name=".SearchWords"
-            android:label="Search Words"/>
+        <activity
+            android:name=".Favorite"
+            android:label="Favorites" />
+        <activity
+            android:name=".RandomSearch"
+            android:label="Random Search" />
+        <activity
+            android:name=".AddWord"
+            android:label="Add Words" />
+        <activity
+            android:name=".SearchWords"
+            android:label="Search Words" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
