@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -26,9 +26,10 @@
             android:text="Grade One"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_one_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -37,9 +38,10 @@
             android:text="Grade two"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_two_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -48,9 +50,10 @@
             android:text="Grade three"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_three_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -59,9 +62,10 @@
             android:text="Grade four"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_four_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -70,9 +74,10 @@
             android:text="Grade five"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_five_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -81,9 +86,10 @@
             android:text="Grade six"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_six_btn"/>
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
@@ -92,7 +98,8 @@
             android:text="Grade seven"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:id="@+id/grade_seven_btn"/>
 
     </LinearLayout>
 
